@@ -1,0 +1,13 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "get-value": "^3.0.1",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "random-token": "0.0.8",
+    "sha256": "^0.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+
+I. MISE EN PLACE DE L'ENVIRONNEMENT:
+
+    1. Installer nodejs et npm:
+
+        sudo apt install nodejs npm
+
+    2. Installer mongo:
+
+        sudo apt-get install -y mongodb-org
+
+    3. Mettre en place les dépendances:
+
+        npm create
+
+    4. Télécharger mongoose et les autres dépendances (express, body-parser, ...):
+
+        npm install mongoose
+        npm install express
+        ...
+
+II. Création des dossiers et fichiers:
+
+    1. Dossier "models":
+
+        Contient tout nos models moogoose permettant de structurer la BDD
+
+    2. Dossier "services":
+
+        Contient toutes les fonctions en JS qui communique avec le BDD
+
+    3. Dossier "routes":
+
+        Contient les paths de chaque fonctions contenus dans les services
+
+    4. Fichier "server.js":
+
+        Notre serveur
+
+    5. Dossier 'data' contenant un dossier 'db':
+
+        Notre base de donnée
+
+III Lancer le projet:
+
+    1. Lancer la BDD:
+
+        sudo mongod --dbpath ./
+
+    2. Lancer le server:
+
+        node server.js
